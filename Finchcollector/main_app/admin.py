@@ -1,10 +1,11 @@
 from django.contrib import admin
 
 # Register your models here.
-# from.models import Finch, Sighting, Feather, Photo
+from.models import Finch, Sighting, Feather
+
 # Register your models here.
 
-# admin.site.register(Finch)
-# admin.site.register(Sighting)
-# admin.site.register(Feather)
+admin.site.register(Finch)
+admin.site.register(Sighting)
+admin.site.register(Feather)
 # admin.site.register(Photo)
